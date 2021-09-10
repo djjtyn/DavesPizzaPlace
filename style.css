@@ -1,0 +1,94 @@
+/*GENERAL STYLING*/
+*{
+    box-sizing: border-box;
+}/*sets box-sizing as border-box*/
+
+body{
+    background-color:#00203FFF;
+}/*sets bg color for full page*/
+
+/*HEADER AREA*/
+header{
+    background-color:#FFFF33;
+    text-align: center;
+}/*sets the bg color and text alignment for header area*/
+
+.heading{
+    color:#00203FFF;
+    font-size: 3em;
+    padding: .2em;
+}/*sets the font color,size and padding of the heading in the header area*/
+
+.costDetails {
+    color:yellow;
+    padding:1em;
+}
+
+.listHeading {
+    list-style: none;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+h3 {
+    color:#FFFF33;
+    text-align: center;
+}/*centres the heading above the form and sets color for it*/
+
+/*FORM AREA*/
+.orderForm {
+    background-color: black;
+    color:yellow;
+    padding:.5em;
+    border:1px solid yellow;
+    border-radius:15px;
+    font-size: 1.5em;
+}
+
+.orderForm input {
+    width:100%;
+}
+
+.form-group {
+    margin: 1em 0;
+    width:100%;
+}
+.form-group span{
+    margin:0 1em 0 0;
+}
+
+.form-group button {
+    width:100%;
+    margin: auto;
+
+}
+
+.formWrap{
+    border: .1em solid #FFFF33;
+    padding: 1em;
+    margin: 10%;
+}sets the border,padding,margin and font colour of the form area */
+
+select{  
+    text-align-last: center;
+}/*sets the select option box to have the same width as the input elements and centers the options*/
+
+#pizzaQuantity {
+    width: 4em;
+}
+
+/*TOTAL PRICE AREA*/
+.totalPrice{
+    text-align: center;
+    padding: 2em;
+}/*centres javascript cost output area and adds padding*/
+
+/*FORM VALIDATION MESSAGES FROM JAVASCRIPT FUNCTIONS*/
+.formError{
+    color:#ff0000 ;
+}/*Javascript validation error output string to be displayed in red*/
+
+.formSuccess{
+    color:#FFFF33;
+}/*Javascript validation success output string to be displayed in yellow*/
+
